@@ -91,6 +91,7 @@ def continuous_subtraction(str_input):
     for g in range(len(str_input)):
         if str_input[g] == '-':
             subtraction_2 += 1
+    print(subtraction_2)
     p = str_input.split('-')
     if subtraction_2 == 1:
         if contains_str(str_type_return(p[0]) - str_type_return(p[1]), '.'):
@@ -98,15 +99,18 @@ def continuous_subtraction(str_input):
         else:
             return subtraction_int(int(p[0]), int(p[1]))
     elif subtraction_2 > 1:
+        print('ooo')
         for i in range(subtraction_2):
+            print('ooo')
             if str_input[i] == '-':
                 s = 1
+                print(i)
                 if contains_str(str_type_return(p[i]) - str_type_return(p[i + 1]), '.'):
                     temp = subtraction_float(float(p[i]), float(p[i + 1]))
                 else:
                     temp = subtraction_int(int(p[i]), int(p[i + 1]))
                 u = temp
-        return u
+        #return u
 
 
 # 连续乘法
