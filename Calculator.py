@@ -2,7 +2,7 @@ from calculation_function import *
 
 k = 0
 print('欢迎使用jtr计算器')
-print('制作者:Lijunhao_001')
+print('制作者:LiJunhao_001')
 # 重复执行询问和输出
 while True:
     formula = input('算式:')
