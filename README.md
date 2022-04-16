@@ -1,4 +1,4 @@
-# Calculator_0.5.9
+# Calculator for LiJunhao_001
 ***
 此为一个四年级小学生的第一个Python作品
 
